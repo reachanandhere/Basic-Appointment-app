@@ -1,0 +1,10 @@
+<div>
+  <app-create-appointment
+    (appointmentAdded)="appointmentAdded($event)"
+  ></app-create-appointment>
+
+  <app-appointment-list
+    [appointments]="appointments"
+    (deleteAppointment)="deleteAppointment($event)"
+  ></app-appointment-list>
+</div>

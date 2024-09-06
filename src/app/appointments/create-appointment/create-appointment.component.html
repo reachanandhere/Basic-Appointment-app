@@ -1,0 +1,30 @@
+<div>
+
+    <div class="card mt-3">
+        <div>
+            <h2 class="card-header text-center">
+                Create Appointment
+            </h2>
+        </div>
+      
+        <div class="row p-4">
+            <div class="col-md-6">
+                <input class="form-control h-100" type="text" placeholder="Appointment Description" [(ngModel)]="appointmentTitle">
+            </div>
+            <div class="col-md-4">
+                <input class="form-control" type="date" placeholder="Appointment Date" [(ngModel)]="appointmentDate">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary w-100" (click)="addAppointment()">Create Appointment</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+  
+  
+
+    
+</div>
